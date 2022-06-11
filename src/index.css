@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #23252C;
+}
+
+.container {
+    background-color: #1A1B21;
+    margin: 0 auto;
+    max-width: 317px;
+    width: 90%;
+}
+
+.header {
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.button-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 115px;
+    height: 34px;
+    background: #5093E2;
+    border-radius: 6px;
+    color: #FFFFFF;
+}
+
+.button-email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 115px;
+    height: 34px;
+    background: #FFFFFF;
+    color: #374151;
+    border-radius: 6px;
+}
+
+.button-email::before {
+    content: url('/src/components/images/mail.png');
+    margin-right: 5px;
+}
+
+.button-link::before {
+    content: url('/src/components/images/linkedin.png');
+    margin-right: 5px;
+}
+
+.header h2 {
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: -10px;
+}
+
+.header h4 {
+    font-weight: 400;
+    font-size: 12.8px;
+    text-align: center;
+    color: #F3BF99;
+    margin-bottom: -7px;
+}
+
+.header h5 {
+    font-weight: 400;
+    font-size: 10.24px;
+    text-align: center;
+    color: #F5F5F5;
+}
+
+.about {
+    margin-top: 2rem;
+}
+
+.interests {
+    margin-bottom: 2rem;
+}
+
+.about h3, .interests h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #F5F5F5;
+    margin-left: 36px;
+}
+
+.about p, .interests p {
+    margin-left: 36px;
+    margin-right: 36px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #DCDCDC;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+    height: 64px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer svg {
+    width: 25px;
+    height: 25px;
+}
